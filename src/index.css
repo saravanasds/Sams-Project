@@ -1,0 +1,162 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* CSS */
+.slider-slide:nth-child(2) {
+  transition: transform 0.3s ease;
+}
+
+@media (max-width: 1024px) {
+  .slider-slide:nth-child(2) {
+    transform: scale(2); /* Scale the second card */
+  }
+}
+
+.nav-link {
+    position: relative;
+    color: black;
+    text-decoration: none;
+    padding: 0.5rem 0.2rem;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-link::before {
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 2.5px;
+    bottom: 0;
+    left: 50%;
+    background-color: #3E4095;
+    transition: width 0.4s ease-in-out, left 0.4s ease-in-out;
+}
+
+.nav-link:hover::before {
+    width: 100%;
+    left: 0;
+}
+
+.nav-link-active {
+    position: relative;
+    padding: 0.5rem 0.2rem;
+    border-bottom: 3px solid #3E4095;
+}
+
+.nav-link-active::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2.5px;
+    bottom: 0;
+    left: 0;
+}
+
+.hero-section {
+    position: relative;
+  }
+  
+  .hero-section h1:hover ~ .background-image {
+    filter: blur(5px);
+  }
+
+  @keyframes moveBackground {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.5);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  .animate-bg-image {
+    animation: moveBackground 10s ease infinite;
+  }
+  
+  @keyframes spinX {
+    from {
+      transform: rotateX(0deg);
+    }
+    to {
+      transform: rotateX(360deg);
+    }
+  }
+  
+  .spin-x {
+    animation: spinX 2s linear infinite;
+  }
+  
+.text-border {
+  text-shadow: 2px 2px 0px #000, -2px -2px 0px #000, 2px -2px 0px #000, -2px 2px 0px #000;
+}
+.text-border-bottom {
+  position: relative;
+  display: inline-block;
+}
+
+.text-border-bottom {
+  position: relative;
+  display: inline-block;
+}
+
+.text-border-bottom::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0;
+  width: 30%;
+  height: 3px; /* Adjust the height as needed */
+  background: linear-gradient(to right, transparent, #73D1FF, transparent); /* Adjust the gradient colors as needed */
+}
+
+@keyframes bounceMedium {
+  0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+  }
+  40% {
+      transform: translateY(-30px);
+  }
+  60% {
+      transform: translateY(-15px);
+  }
+}
+
+.gradient-text {
+  background: linear-gradient(to top, transparent, #73D1FF, transparent);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.bounceMedium {
+  animation: bounceMedium 3s infinite;
+}
+
+@keyframes slow-ping {
+  0% {
+      transform: scale(1);
+      /* opacity: 1; */
+  }
+  50% {
+    transform: scale(1.2);
+    /* opacity: 0; */
+  }
+  100% {
+    transform: scale(1);
+    /* opacity: 0; */
+}
+}
+
+.animate-slow-ping {
+  animation: slow-ping 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+
+
+
+
