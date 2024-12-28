@@ -176,16 +176,16 @@ const AboutTeamSection = () => {
                       alt={`${member.name} photo`}
                       width={160}
                       height={160}
-                      className="rounded-2xl object-cover border-[1px] border-primary-dark"
+                      className="rounded-2xl p-1 object-cover border-[1px] border-primary-dark"
                      />
                   </div>
-                  <h3 className="text-base sm:text-xl lg:text-xl md:mt-5 font-bold text-primary-dark uppercase ">
+                  <h3 className="text-base sm:text-xl lg:text-xl md:mt-5 mt-5 font-bold text-primary-dark uppercase ">
                     {member.name}
                   </h3>
                   <p className="text-sm sm:text-base text-gray-700 py-1 font-medium">
                     {member.role}
                   </p>
-                  <p className="text-sm sm:text-sm lg:text-base text-gray-700 md:mt-4 tracking-wide">
+                  <p className="text-sm sm:text-sm lg:text-base text-gray-700 md:mt-3 tracking-wide">
                     {member.bio}
                   </p>
                   <p className="text-sm sm:text-sm lg:text-base text-gray-700 mt-4">

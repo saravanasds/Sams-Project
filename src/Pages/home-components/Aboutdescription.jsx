@@ -49,7 +49,7 @@ const Aboutdescription = () => {
 
   {/* Button */}
   <div className="mt-4 flex items-center justify-center md:justify-start">
-    <button className="bg-primary-dark font-medium text-white md:px-6 px-3 md:py-2 py-1 rounded-2xl md:hover:bg-transparent hover:bg-white md:hover:bg-primary-dark hover:text-primary-dark md:hover:text-white md:text-white border-2 border-gray-200 transition-all duration-300 ">
+    <button className="bg-primary-dark font-medium text-white md:px-6 px-3 md:py-2 py-1 rounded-2xl md:bg-primary-dark hover:bg-white md:hover:bg-cyan-500 hover:text-primary-dark md:hover:text-white md:text-white border-2 border-gray-200 transition-all duration-300">
       Get Ready to Your Appointment
     </button>
   </div>

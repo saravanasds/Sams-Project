@@ -60,15 +60,7 @@ const Footer = () => {
                   Services
                 </a>
               </li>
-              <li className="flex items-center">
-                <FaPhone className="mr-2 text-primary-dark" />
-                <a
-                  href="/contact"
-                  className="text-base text-gray-300 hover:text-primary-dark hover:tracking-wider transform transition-all duration-300"
-                >
-                  Contact
-                </a>
-              </li>
+            
             </ul>
           </div>
 
