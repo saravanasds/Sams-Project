@@ -2,15 +2,15 @@ import React, { useState, useEffect, useRef } from "react";
 
 import { IoIosArrowForward, IoIosArrowBack } from "react-icons/io";
 import bg1 from "../../assets/bg1.jpg";
-import Image1 from "../../assets/dean.jpg"
-import Image2 from "../../assets/dean.jpg"
-import Image3 from "../../assets/dean.jpg"
-import Image4 from "../../assets/dean.jpg"
-import Image5 from "../../assets/dean.jpg"
-import Image6 from "../../assets/dean.jpg"
-import Image7 from "../../assets/dean.jpg"
-import Image8 from "../../assets/dean.jpg"
-import Image9 from "../../assets/dean.jpg"
+import Image1 from "../../assets/doc.jpeg"
+import Image2 from "../../assets/doc.jpeg"
+import Image3 from "../../assets/doc.jpeg"
+import Image4 from "../../assets/doc.jpeg"
+import Image5 from "../../assets/doc.jpeg"
+import Image6 from "../../assets/doc.jpeg"
+import Image7 from "../../assets/doc.jpeg"
+import Image8 from "../../assets/doc.jpeg"
+import Image9 from "../../assets/doc.jpeg"
 
 const AboutTeamSection = () => {
   const team = [
