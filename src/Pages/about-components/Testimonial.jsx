@@ -1,4 +1,3 @@
-"use client";
 
 import React, { useState, useEffect } from "react";
 
@@ -84,20 +83,6 @@ const TestimonialSection = () => {
             ))}
           </div>
         </div>
-
-        {/* Navigation Buttons */}
-        <button
-          onClick={prevSlide}
-          className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-white text-primary-dark text-lg p-3 rounded-full hover:bg-primary-dark hover:text-white shadow-lg flex items-center justify-center transition"
-        >
-          &#8592;
-        </button>
-        <button
-          onClick={nextSlide}
-          className="absolute right-4 top-1/2 transform -translate-y-1/2 bg-white text-primary-dark text-lg p-3 rounded-full hover:bg-primary-dark hover:text-white shadow-lg flex items-center justify-center transition"
-        >
-          &#8594;
-        </button>
 
         {/* Indicators */}
         <div className="mt-6 flex justify-center space-x-2">

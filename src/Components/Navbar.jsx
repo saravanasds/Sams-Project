@@ -17,16 +17,16 @@ const Navbar = () => {
         <div className="flex items-center justify-between py-3 md:py-4">
           {/* Logo Section */}
           <Link to={"/"} className="flex items-center">
-          <div className="flex items-center">
-            <img
-              src= {Logo}
-              alt="Logo"
-              className="h-8 sm:h-12 lg:h-16 w-auto"
-            />
-            <h2 className="ml-3 font-montserrat font-bold lg:text-xl text-lg tracking-wide uppercase text-primary-dark">
-              Sam's Physio & Rehab Clinic
-            </h2>
-          </div>
+            <div className="flex items-center">
+              <img
+                src={Logo}
+                alt="Logo"
+                className="h-8 sm:h-12 lg:h-16 w-auto"
+              />
+              <h2 className="ml-3 font-montserrat font-bold lg:text-xl text-sm xs:text-lg tracking-wide uppercase text-primary-dark">
+                Sam's Physio & Rehab Clinic
+              </h2>
+            </div>
           </Link>
 
           {/* Desktop Links */}
@@ -42,9 +42,9 @@ const Navbar = () => {
             </Link>
 
             <a href="tel:+917200220631">
-            <button className="bg-primary-dark text-white text-sm lg:text-base font-medium rounded-3xl px-4 lg:px-6 py-2 tracking-wide hover:bg-transparent hover:text-primary-dark border-2 border-primary-dark transition ">
-              Book Appointment
-            </button>
+              <button className="bg-primary-dark text-white text-sm lg:text-base font-medium rounded-3xl px-4 lg:px-6 py-2 tracking-wide hover:bg-transparent hover:text-primary-dark border-2 border-primary-dark transition ">
+                Book Appointment
+              </button>
             </a>
           </div>
 
@@ -94,19 +94,20 @@ const Navbar = () => {
       {isOpen && (
         <div className="md:hidden bg-gray-100">
           <div className="px-4 py-4 flex flex-col space-y-2 text-gray-800 font-semibold text-center">
-            <Link to="/" className="nav-link hover:text-primary-dark">
+            <Link to="/" className="nav-link hover:text-primary-dark" onClick={toggleNavbar}>
               Home
             </Link>
-            <Link to="/about" className="nav-link hover:text-primary-dark">
+            <Link to="/about" className="nav-link hover:text-primary-dark " onClick={toggleNavbar}>
               About
             </Link>
-            <Link to="/services" className="nav-link hover:text-primary-dark">
+            <Link to="/services" className="nav-link hover:text-primary-dark" onClick={toggleNavbar}>
               Services
             </Link>
-            
-            <button className="bg-primary-dark text-white text-sm font-medium rounded-3xl px-4 py-2 tracking-wide hover:bg-transparent hover:text-primary-dark border-2 border-primary-dark transition mt-2">
-              Book Appointment
-            </button>
+            <a href="tel:+917200220631">
+              <button className="bg-primary-dark text-white text-sm font-medium rounded-3xl px-4 py-2 tracking-wide hover:bg-transparent hover:text-primary-dark border-2 border-primary-dark transition mt-2" onClick={toggleNavbar}>
+                Book Appointment
+              </button>
+            </a>
           </div>
         </div>
       )}

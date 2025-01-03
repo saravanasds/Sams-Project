@@ -19,11 +19,11 @@ const Footer = () => {
 
       {/* Footer Content */}
       <div className="relative z-10 max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 py-8 sm:py-26 md:border-gray-700 md:border-[1px]">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-12 text-center md:text-left">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-12 text-left">
           {/* Column 1 */}
-          <div className="text-center md:text-left">
-            <h3 className="text-xl font-bold mb-4 text-white">Sam's Physio & Re Hab</h3>
-            <p className="text-base text-gray-300">
+          <div className="text-left">
+            <h3 className="text-xl font-bold mb-4 text-white">Sam's Physio & Rehab</h3>
+            <p className="text-base text-gray-300 text-justify">
               We are committed to providing exceptional services and support for
               our clients. Discover more about our mission and vision.
             </p>
@@ -31,7 +31,7 @@ const Footer = () => {
 
           {/* Column 2: Quick Links */}
           <div >
-            <h3 className="text-xl font-bold mb-4 text-white tracking-wide">Quick Links</h3>
+            <h3 className="text-xl font-bold mb-4 text-white tracking-wide text-left">Quick Links</h3>
             <ul className="space-y-2 ">
               <li className="flex items-center ">
                 <FaHome className="mr-2 text-primary-dark" />
@@ -66,7 +66,7 @@ const Footer = () => {
 
           {/* Column 3: Services */}
           <div>
-            <h3 className="text-xl font-bold mb-4 text-white tracking-wide">Services</h3>
+            <h3 className="text-xl font-bold mb-4 text-white tracking-wide text-left">Services</h3>
             <ul className="space-y-2">
               <li className="flex items-center">
                 <RiPsychotherapyFill className="mr-2 text-primary-dark" />
@@ -109,7 +109,7 @@ const Footer = () => {
 
           {/* Column 4: Contact Us */}
           <div>
-            <h3 className="text-xl font-bold mb-4 text-white tracking-wide">Contact Us</h3>
+            <h3 className="text-xl font-bold mb-4 text-white tracking-wide text-left">Contact Us</h3>
             <ul className="space-y-2">
               <li className="flex items-center text-base text-gray-300">
                 <FaHome className="mr-2 text-primary-dark" /> 2, Ramesh theatre backside,

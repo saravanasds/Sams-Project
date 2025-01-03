@@ -2,7 +2,7 @@
 
 import React from "react";
 import Team from "../about-components/Team";
-import dean from "../../assets/dean.jpg"
+import dean from "../../assets/doc.jpeg"
 import about3 from "../../assets/about3.jpg"
 import clinical from "../../assets/ServiceImages/clinical.jpg"
 import about2 from "../../assets/about2.jpg"
@@ -10,16 +10,14 @@ import about4 from "../../assets/about4.jpg"
 
 const AboutPage = () => {
   return (
-    <div className="min-h-screen ">        n           
+    <div className="min-h-screen ">             
       <div className="bg-gray-100 py-12">
         <div className="max-w-7xl mx-auto px-6 lg:px-12 flex flex-col lg:flex-row items-center gap-8">
           <div className="relative">
             <img
               src={dean}
               alt="Dean or Doctor"
-              width={500}
-              height={600}
-              className="w-full lg:w-full rounded-xl shadow-lg"
+              className="w-full lg:w-full h-96 rounded-xl shadow-lg object-cover"
             />
             <div className="absolute bottom-0 left-0 w-full bg-black bg-opacity-50 backdrop-blur-sm rounded-b-xl md:p-4 p-2 text-white text-center tracking-wider">
               <h2 className="md:text-2xl text-xl font-bold mb-2">
@@ -56,7 +54,7 @@ const AboutPage = () => {
       {/* About Section */}
       <div className="max-w-7xl mx-auto py-12 px-6 lg:px-12">
         <h2 className="md:text-3xl text-2xl lg:text-4xl font-bold text-center text-primary-dark mb-6">
-          Sam's Physio & Re hab.
+          Sam's Physio & Rehab.
         </h2>
         <p className="md:text-lg text-gray-600 leading-relaxed text-center max-w-4xl mx-auto mb-8">
           At <span className="font-semibold ">Sam's Physio & Rehab</span>, our
