@@ -94,13 +94,13 @@ const HeroSlider = () => {
       {/* Navigation */}
       <button
         onClick={prevSlide}
-        className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-primary-dark text-white p-3 rounded-full hover:bg-cyan-500 shadow-lg"
+        className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-primary-dark text-white p-3 rounded-full hover:bg-cyan-500 shadow-lg hidden md:block"
       >
       <IoIosArrowBack/>
       </button>
       <button
         onClick={nextSlide}
-        className="absolute right-4 top-1/2 transform -translate-y-1/2 bg-primary-dark text-white p-3 rounded-full hover:bg-cyan-500 shadow-lg"
+        className="absolute right-4 top-1/2 transform -translate-y-1/2 bg-primary-dark text-white p-3 rounded-full hover:bg-cyan-500 shadow-lg hidden md:block"
       >
        < IoIosArrowForward/>
       </button>

@@ -2,15 +2,15 @@ import React, { useState, useEffect, useRef } from "react";
 
 import { IoIosArrowForward, IoIosArrowBack } from "react-icons/io";
 import bg1 from "../../assets/bg1.jpg";
-import Image1 from "../../assets/doc.jpeg"
-import Image2 from "../../assets/doc.jpeg"
-import Image3 from "../../assets/doc.jpeg"
-import Image4 from "../../assets/doc.jpeg"
-import Image5 from "../../assets/doc.jpeg"
-import Image6 from "../../assets/doc.jpeg"
-import Image7 from "../../assets/doc.jpeg"
-import Image8 from "../../assets/doc.jpeg"
-import Image9 from "../../assets/doc.jpeg"
+import Image1 from "../../assets/doc.jpg"
+import Image2 from "../../assets/doc.jpg"
+import Image3 from "../../assets/doc.jpg"
+import Image4 from "../../assets/doc.jpg"
+import Image5 from "../../assets/doc.jpg"
+import Image6 from "../../assets/doc.jpg"
+import Image7 from "../../assets/doc.jpg"
+import Image8 from "../../assets/doc.jpg"
+import Image9 from "../../assets/doc.jpg"
 
 const AboutTeamSection = () => {
   const team = [
@@ -179,7 +179,7 @@ const AboutTeamSection = () => {
                       className="rounded-2xl p-1 object-cover border-[1px] border-primary-dark"
                      />
                   </div>
-                  <h3 className="text-base sm:text-xl lg:text-xl md:mt-5 mt-5 font-bold text-primary-dark uppercase ">
+                  <h3 className="text-base sm:text-xl lg:text-xl md:mt-5 mt-5 font-bold text-primary-dark  ">
                     {member.name}
                   </h3>
                   <p className="text-sm sm:text-base text-gray-700 py-1 font-medium">

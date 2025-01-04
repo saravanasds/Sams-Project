@@ -2,7 +2,7 @@
 
 import React from "react";
 import Team from "../about-components/Team";
-import dean from "../../assets/doc.jpeg"
+import dean from "../../assets/doc.jpg"
 import about3 from "../../assets/about3.jpg"
 import clinical from "../../assets/ServiceImages/clinical.jpg"
 import about2 from "../../assets/about2.jpg"
