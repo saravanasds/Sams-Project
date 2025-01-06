@@ -131,8 +131,9 @@ const Footer = () => {
         </div>
 
         {/* Footer Bottom */}
-        <div className="mt-20 border-t border-gray-700 pt-6 text-center md:text-base text-gray-400">
+        <div className="mt-10 border-t border-gray-700 pt-6 text-center md:text-base text-gray-400">
           © {new Date().getFullYear()} Sam's Physio & Re Hab Clinic. All rights reserved.
+          <p>Powered by <a href="https://sdstechzone.in" className="text-blue-500">Sds Technologies</a></p>
         </div>
       </div>
     </footer>
