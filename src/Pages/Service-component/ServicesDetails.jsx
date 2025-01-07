@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import Chiropractor from "../../assets/ServiceImages/chiropractor.jpg";
 import sports from "../../assets/ServiceImages/sports.jpg";
 import homeCare from "../../assets/ServiceImages/homeCare.jpg";
-import paediatric from "../../assets/ServiceImages/paediatric.jpg";
+import pediatric from "../../assets/ServiceImages/paediatric.jpg";
 import neuro from "../../assets/ServiceImages/neuro.jpg";
 import pre from "../../assets/ServiceImages/pre.jpg";
 import geriatric from "../../assets/ServiceImages/geriatric.jpg";
@@ -45,7 +45,7 @@ const services = [
     "Receive professional physiotherapy treatments without leaving the comfort of your home. Our experienced physiotherapists offer personalized care for a wide range of conditions, making therapy convenient and tailored to your needs.",
   },
   {
-    imgSrc:paediatric,
+    imgSrc:pediatric,
     alt: "Pediatric Physiotherapy",
     title: "Pediatric Physiotherapy",
     description: "Therapy for children to enhance mobility and development.",

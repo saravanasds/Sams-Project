@@ -10,7 +10,7 @@ import about4 from "../../assets/about4.jpg"
 
 const AboutPage = () => {
   return (
-    <div className="min-h-screen ">             
+    <div className="min-h-screen ">
       <div className="bg-gray-100 py-12">
         <div className="max-w-7xl mx-auto px-6 lg:px-12 flex flex-col lg:flex-row items-center gap-8">
           <div className="relative">
@@ -20,18 +20,22 @@ const AboutPage = () => {
               className="w-full lg:w-full h-96 rounded-xl shadow-lg object-cover"
             />
             <div className="absolute bottom-0 left-0 w-full bg-black bg-opacity-50 backdrop-blur-sm rounded-b-xl md:p-4 p-2 text-white text-center tracking-wider">
-              <h2 className="md:text-2xl text-xl font-bold mb-2">
+              <h2 className="md:text-2xl text-xl font-semibold">
                 Meet Dr. Sam Clement
               </h2>
-              <p className="md:text-lg text-base font-medium">
-                BPT., MPT., (PAEDIATRIC).
+              <p className=" text-base font-medium">
+                BPT., MPT., (PEDIATRIC).
               </p>
+              <span>Cheif Consultant Physiotherapist</span>
             </div>
           </div>
 
           <div className="lg:w-2/3">
+            <p className="md:text-lg text-base text-gray-700 leading-relaxed tracking-wide mb-4 text-justify">
+              Expert in orthopedic physiotherapy and pediatric physiotherapy. Certified in dry needling, myofascial cupping, soft tissue manipulation, and chiropractic techniques. Extensive experience in treating chronic pain conditions affecting the shoulder, neck, spine, knee, and foot.
+            </p>
             <p className="md:text-lg text-base text-gray-700 leading-relaxed mb-4 tracking-wide text-justify">
-            <b>Dr. Sam Clement</b>, the founder of Sam's Physio & Rehab, is a renowned physiotherapist dedicated to helping individuals regain mobility and improve their quality of life. With a commitment to excellence, <b>Dr. Sam Clement</b> has built a center that combines advanced techniques, personalized care, and a holistic approach to rehabilitation.
+              <b>Dr. Sam Clement</b>, the founder of Sam's Physio & Rehab, is a renowned physiotherapist dedicated to helping individuals regain mobility and improve their quality of life. With a commitment to excellence, <b>Dr. Sam Clement</b> has built a center that combines advanced techniques, personalized care, and a holistic approach to rehabilitation.
             </p>
             <p className="md:text-lg text-base text-gray-700 leading-relaxed tracking-wide mb-4 text-justify">
               Under his leadership, our team has helped countless individuals
@@ -40,12 +44,15 @@ const AboutPage = () => {
               surgery. His vision is to provide holistic care tailored to the
               needs of each client.
             </p>
-            <p className="md:text-lg text-base text-gray-700 leading-relaxed tracking-wide text-justify">
-              <b>At Sam's Physio & Rehab</b>, we provide expert care for sports
-              injuries, chronic pain, and post-surgical recovery. 
-              With tailored treatment plans, advanced techniques, a compassionate approach, and a focus on long-term wellness, we help you regain mobility and improve your quality of life.
-            </p>
+
           </div>
+        </div>
+        <div className="max-w-8xl mx-auto px-6 lg:px-20 pt-4 sm:pt-10">
+          <p className="md:text-lg text-base text-gray-700 leading-relaxed tracking-wide text-justify">
+            <b>At Sam's Physio & Rehab</b>, we provide expert care for sports
+            injuries, chronic pain, and post-surgical recovery.
+            With tailored treatment plans, advanced techniques, a compassionate approach, and a focus on long-term wellness, we help you regain mobility and improve your quality of life.
+          </p>
         </div>
       </div>
 
@@ -150,9 +157,9 @@ const AboutPage = () => {
           our services.
         </p>
         <a href="tel:+917200220631">
-        <button className="mt-6 px-6 py-3 bg-white text-primary-dark font-semibold rounded-md hover:bg-gray-200">
-          Get in Touch
-        </button>
+          <button className="mt-6 px-6 py-3 bg-white text-primary-dark font-semibold rounded-md hover:bg-gray-200">
+            Get in Touch
+          </button>
         </a>
       </div>
     </div>

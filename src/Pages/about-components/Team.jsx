@@ -16,7 +16,7 @@ const AboutTeamSection = () => {
   const team = [
     {
       name: "Dr. Sam Clement",
-      role: "BPT MPT (Paediatric)",
+      role: "BPT MPT (Pediatric)",
       image: Image1,
       bio: "[ Certified Electro dry needling therapy, Cupping therapy,Manipaltion, Chiropractor, IASTM practitioner (Specialized in Pain management) ]",
     },
@@ -31,7 +31,7 @@ const AboutTeamSection = () => {
       name: "Dr.Dhivya Dharshini",
       role: "BPT (Female consultant physiotherapist)",
       image: Image3,
-      bio: "[ Certified in Yoga science, Myo fascial release, Cupping therapy (Specialized in Paediatrics) ]",
+      bio: "[ Certified in Yoga science, Myo fascial release, Cupping therapy (Specialized in Pediatrics) ]",
     },
     {
       name: "Dr.S.R.Sam Clinton",
@@ -42,7 +42,7 @@ const AboutTeamSection = () => {
    
     {
       name: "Dr.Jagadeesh",
-      role: "Neuro Paediatric Occupational Therapist",
+      role: "Neuro Pediatric Occupational Therapist",
       image: Image5,
       bio: "[ M.O.T (Manipal), D.R.O.T (Munmbai), S.I Trained (USA) ]",
     },
