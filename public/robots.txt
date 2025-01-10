@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /admin/  # Block admin routes if any
+Disallow: /private/  # Block private directories (if any)
+
+Sitemap: https://samsphysiorehab.in/sitemap.xml
